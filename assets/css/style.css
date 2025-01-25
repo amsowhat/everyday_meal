@@ -1,0 +1,353 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+	margin: 20px;
+	color:;
+	background color:;
+	font-family:brown;
+}
+	
+
+h1 {
+	display:inline;
+}
+
+/* 일요일 */
+
+.question {
+	color : lawngreen;
+	background-color:blue;
+}
+
+/* 수요일 */
+.title_wed {
+	background-color : white;
+}
+
+.subtitle_wed {
+	background-color : white;
+}
+
+
+.content_wed {
+	background-color : white;
+}
+
+
+
+/* 목요일 */
+/* 목요일 페이지에만 적용되는 중앙 정렬 스타일 */
+.current-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* 목요일 페이지에서만 텍스트 중앙 정렬 */
+.current-page h1,
+.current-page h3,
+.current-page p {
+  text-align: center;
+}
+
+/* 목요일 페이지에서만 이미지 중앙 정렬 */
+.current-page img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+🍓{ margin: 0; padding: 0; }
+img { width: 1000vw; }
+.snow_wrap .snow_div {
+  position: fixed;
+  top: -10%;
+  z-index: 9999;
+  animation: snow_shake 3s ease-in-out infinite;  
+  user-select: none;
+}
+.snow_wrap .snow_div p { animation: snow_fall 10s linear infinite; }
+
+.snow_wrap .snow_div:nth-of-type(0) { left: 0%; animation-delay: 0s; }
+.snow_wrap .snow_div:nth-of-type(0) p { animation-delay: 0s; }
+.snow_wrap .snow_div:nth-of-type(1) { left: 10%; animation-delay: 1s; }
+.snow_wrap .snow_div:nth-of-type(1) p { animation-delay: 1s; }
+.snow_wrap .snow_div:nth-of-type(2) { left: 20%; animation-delay: 0.5s; }
+.snow_wrap .snow_div:nth-of-type(2) p { animation-delay: 6s; }
+.snow_wrap .snow_div:nth-of-type(3) { left: 30%; animation-delay: 2s; }
+.snow_wrap .snow_div:nth-of-type(3) p { animation-delay: 4s; }
+.snow_wrap .snow_div:nth-of-type(4) { left: 40%; animation-delay: 2s; }
+.snow_wrap .snow_div:nth-of-type(4) p { animation-delay: 2s; }
+.snow_wrap .snow_div:nth-of-type(5) { left: 50%; animation-delay: 3s; }
+.snow_wrap .snow_div:nth-of-type(5) p { animation-delay: 8s; }
+.snow_wrap .snow_div:nth-of-type(6) { left: 60%; animation-delay: 2s; }
+.snow_wrap .snow_div:nth-of-type(6) p { animation-delay: 6s; }
+.snow_wrap .snow_div:nth-of-type(7) { left: 70%; animation-delay: 1s; }
+.snow_wrap .snow_div:nth-of-type(7) p { animation-delay: 2.5s; }
+.snow_wrap .snow_div:nth-of-type(8) { left: 80%; animation-delay: 0s; }
+.snow_wrap .snow_div:nth-of-type(8) p { animation-delay: 1s; }
+.snow_wrap .snow_div:nth-of-type(9) { left: 90%; animation-delay: 1.5s; }
+.snow_wrap .snow_div:nth-of-type(9) p { animation-delay: 3s; }
+.snow_wrap .snow_div:nth-of-type(10) { left: 25%; animation-delay: 0.5s; }
+.snow_wrap .snow_div:nth-of-type(10) p { animation-delay: 2s; }
+.snow_wrap .snow_div:nth-of-type(11) { left: 65%; animation-delay: 2.5s; }
+.snow_wrap .snow_div:nth-of-type(11) p { animation-delay: 4s; }
+.snow_wrap .snow_div:nth-of-type(12) { left: 85%; animation-delay: 2s; }
+.snow_wrap .snow_div:nth-of-type(12) p { animation-delay: 7.5s; }
+.snow_wrap .snow_div:nth-of-type(13) { left: 5%; animation-delay: 0s; }
+.snow_wrap .snow_div:nth-of-type(13) p { animation-delay: 2.5s; }
+.snow_wrap .snow_div:nth-of-type(14) { left: 45%; animation-delay: 1.5s; }
+.snow_wrap .snow_div:nth-of-type(14) p { animation-delay: 3.5s; }
+.snow_wrap .snow_div:nth-of-type(15) { left: 75%; animation-delay: 1s; }
+.snow_wrap .snow_div:nth-of-type(15) p { animation-delay: 2s; }
+.snow_wrap .snow_div:nth-of-type(16) { left: 35%; animation-delay: 2.5s; }
+.snow_wrap .snow_div:nth-of-type(16) p { animation-delay: 4.5s; }
+.snow_wrap .snow_div:nth-of-type(17) { left: 15%; animation-delay: 1s; }
+.snow_wrap .snow_div:nth-of-type(17) p { animation-delay: 3s; }
+.snow_wrap .snow_div:nth-of-type(18) { left: 95%; animation-delay: 0s; }
+.snow_wrap .snow_div:nth-of-type(18) p { animation-delay: 2s; }
+
+.snow_wrap .snow_div p {
+  font-size: 70px; /* 원하는 크기로 변경 */
+  animation: snow_fall 10s linear infinite;
+}
+
+
+
+
+
+@keyframes snow_shake {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(80px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes snow_fall {
+  0% {
+    transform: translateY(0vh);
+  }
+  100% {
+    transform: translateY(110vh);
+  }
+}
+
+
+
+
+
+
+/* 전체 이미지 사이즈들 */
+
+.image1 {
+	width : 300px;
+}
+
+.image2 {
+	width : 200px;
+}
+
+
+.image3 {
+	width : 300px;
+}
+
+
+.image4 {
+	width : 200px;
+}
+
+
+.image5 {
+	width : 400px;
+}
+
+
+
+
+.image6 {
+	width : 300px;
+}
+
+
+
+/* 월요일 배경 */
+
+.my_bg_mon {
+	background-image: url("https://i.pinimg.com/736x/2a/6a/9c/2a6a9cd002d11773fbe02cececc06bdf.jpg");
+	background-repeat : repeat;
+	background-position : 200px 200px;
+	background-size : 50%;
+}
+
+
+.my_div_mon {
+	width : 1000px;
+	height : 2000px;
+	border : no solid;
+	
+}
+
+
+/* 화요일 배경 */
+
+.tue{
+	animation: rotate_image 10s linear infinite;
+	transform-origin:50% 50%;
+}
+
+/* 회전하는 만두 이미지 크기 */
+.infinite_rotating_tue {
+  width: 400px; 
+  height: auto;  /* 이미지 비율 유지 */
+  display: block;
+  margin: 0 auto; /* 가운데 정렬 */
+}
+
+
+@keyframes rotate_image{
+	100%{
+	transform: rotate(360deg);
+	}
+}
+
+
+
+.my_div_tue {
+	width : 1000px;
+	height : 2000px;
+	border : no solid;
+	
+}
+
+
+
+/* 수요일 배경 */
+
+.my_bg_wed {
+	background-image: url("https://i.pinimg.com/736x/08/3f/e3/083fe3682400bb69abe0a9842c959f87.jpg");
+	background-repeat : repeat;
+	background-position : 200px 200px;
+	background-size : 40%;
+}
+
+
+.my_div_wed {
+	width : 1000px;
+	height : 2000px;
+	border : no solid;
+	
+}
+
+/* 목요일 제목크기 */
+.title_thu {
+	font-size: 100px;
+	line-height: 1;
+	color : #ff9ae8;
+}
+
+
+
+/* 금요일 제목 폰트 */
+.title_fri {
+	font-weight: extra bold;
+}
+
+
+/* 목요일 페이지에만 적용되는 중앙 정렬 스타일 */
+.current-page-fri {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* 목요일 페이지에서만 텍스트 중앙 정렬 */
+.current-page-fri h1,
+.current-page-fri p {
+  text-align: center;
+}
+
+/* 목요일 페이지에서만 이미지 중앙 정렬 */
+.current-page-fri img {
+  display: block;
+  margin: auto;
+}
+
+
+
+
+/* 금요일 */
+
+@keyframes tomato-ani {
+  0% {
+    transform: scale(1); /* 원래 크기 */
+  }
+  50% {
+    transform: scale(1.5); /* 1.5배 커짐 */
+  }
+  100% {
+    transform: scale(1); /* 다시 원래 크기로 돌아옴 */
+  }
+}
+
+
+
+.tomato {
+  font-size: 150pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  animation: tomato-ani 1s ease-in-out infinite; /* 애니메이션 적용 */
+   margin: auto; /* 가운데 정렬 유지 */
+}
+
+/* 금요일 배경 */
+
+.my_bg_fri {
+	background-color : #f6ff9a;
+}
+
+
+.my_div_fri {
+	width : 40000px;
+	height :40000px;
+	border : no solid;
+	
+}
+
+
+
+
+/*img {
+	height : 300px;
+	margin-bottom: 20px;
+}
+*/
+
+
+
+
+
+
